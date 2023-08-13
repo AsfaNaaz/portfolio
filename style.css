@@ -1,0 +1,125 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    /* background-image: url("/Assets/polka-dots.svg"); */
+    background-color: rgba(12, 12, 12, 0.927);
+}
+
+li>a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#myname {
+    color: rgba(255, 72, 72, 0.916);
+    font-family: 'Playfair Display', serif;
+    font-size: xx-large;
+}
+
+#myweb {
+    color: palevioletred;
+    font-family: 'Playfair Display', serif;
+    font-size: medium;
+}
+.btn-primary{
+    background-color:rgba(255, 72, 72, 0.877);
+    border-color: rgba(255, 72, 72, 0.877);
+}
+.btn:hover {
+    color: black;
+    background-color:white;
+    border-color: white;
+  }
+
+#education {
+    color: aliceblue;
+}
+
+
+#skills {
+    color: aliceblue;
+    font-size: small;
+}
+
+/* .mycarol {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    color: aliceblue;
+    background-color: antiquewhite;
+
+} */
+
+#certificates {
+    color: whitesmoke;
+}
+
+#projects {
+    color: aliceblue;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+#myphoto {
+    border: 1px solid;
+    border-radius: 100%;
+
+}
+
+.carousel-item {
+    position: relative;
+    left: 30%;
+    right: 20%;
+}
+
+.itm {
+    background-color: rgba(255, 72, 72, 0.877);
+}
+
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke=' rgba(255, 72, 72, 0.877)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.card {
+    color: black;
+    margin: 10px;
+}
+
+.con {
+    color: #FF884B;
+    font-size: 40px;
+}
+
+.con:hover {
+    background-color: white;
+    color: #FF6701;
+    border-radius: 10px;
+}
+
+.table {
+    background-color:whitesmoke;
+    width: 100%;
+    
+}
+.txt-heading{
+    color: rgb(205, 204, 204);
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Yellowtail', cursive;
+    font-size: 50px;
+    text-decoration: none;
+}
+.txt{
+    color: white;
+    text-align: center;
+    font-size: medium;
+    
+}
